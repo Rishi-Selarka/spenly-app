@@ -1,0 +1,12 @@
+---
+alwaysApply: true
+---
+1. Follow mvvm architecture for this project
+2. This is an iOS only app with no support for ipad
+3. This app has core data, iCloud sync and sign in with apple integration
+4. Follow best practices of swiftui for UI development in swiftui so the code works properly without any error with the existing app
+5. Don't make over complications.
+6. Add concise and necassry comments where needed for better understanding
+7. Dont create readme file for every execution of feature we make
+8. The code better be optimised so there is no lagging or latency issue in the app.
+9. In our conversations in agentic mode, i prefer all the focus on code and really concise explanation of what you have done, unless any errors are coming or you need my manual intervention, there u can elaborate

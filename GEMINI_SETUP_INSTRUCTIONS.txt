@@ -1,0 +1,142 @@
+========================================
+SPENLY AI - GOOGLE GEMINI (FREE!)
+========================================
+
+✅ COMPLETELY FREE - NO CREDIT CARD NEEDED!
+
+STEP 1: GET FREE API KEY (3 minutes)
+------------------------------------
+1. Go to: https://aistudio.google.com/app/apikey
+2. Sign in with your Google account
+3. Click "Create API Key" or "Get API Key"
+4. Copy the key (looks like: AIzaSy...)
+5. NO CREDIT CARD NEEDED! ✅
+
+STEP 2: ADD KEY TO CODE (1 minute)
+----------------------------------
+1. Open: Spenly/Managers/GeminiManager.swift
+2. Find line 9:
+   private let apiKey = "YOUR_GEMINI_API_KEY_HERE"
+3. Replace with your key:
+   private let apiKey = "AIzaSy-your-actual-key-here"
+4. Save file
+
+STEP 3: ADD FILE TO XCODE (2 minutes)
+-------------------------------------
+Add this NEW file to your Xcode project:
+
+GeminiManager.swift
+Location: Spenly/Managers/
+
+How to add:
+- Right-click "Managers" folder in Xcode
+- "Add Files to Spenly..."
+- Select GeminiManager.swift
+- Check "Copy items if needed"
+- Check your target
+- Click "Add"
+
+STEP 4: BUILD & TEST (1 minute)
+-------------------------------
+1. Clean: Cmd+Shift+K
+2. Build: Cmd+B
+3. Run app
+4. Tap AI button
+5. Try: "What's my largest expense?"
+6. Try: "Add $50 for groceries"
+7. Try: "How do budgets work?"
+
+========================================
+WHAT'S INCLUDED (FREE!)
+========================================
+
+✅ 60 requests per minute (plenty for most users)
+✅ NO billing required
+✅ NO credit card needed
+✅ Unlimited usage within limits
+✅ Smart AI responses (Gemini 1.5 Flash)
+✅ Same features as OpenAI version
+
+Model: Gemini 1.5 Flash
+- Fast responses
+- Intelligent answers
+- Free forever
+- No hidden costs
+
+========================================
+FEATURES THAT WORK
+========================================
+
+✅ ANY financial question answered intelligently
+✅ ALL app feature questions explained
+✅ Transaction creation via natural language
+✅ No more if-else limitations
+✅ Real conversational AI
+✅ Completely FREE!
+
+Examples:
+- "What's my total expense today?"
+- "How much did I spend on food?"
+- "What's premium and is it worth it?"
+- "How to export my data?"
+- "Add $45 for dinner"
+- "What are templates?"
+- "Show my savings rate"
+
+========================================
+TROUBLESHOOTING
+========================================
+
+"Please add your FREE Gemini API key"
+→ You didn't replace the key in GeminiManager.swift
+
+"Invalid API key"
+→ Check you copied the full key correctly
+→ Make sure it starts with AIzaSy...
+
+"Quota exceeded"
+→ You hit 60 requests/minute limit
+→ Wait 1 minute and try again
+→ Very rare for normal usage
+
+"No internet connection"
+→ Gemini needs internet to work
+
+========================================
+COST COMPARISON
+========================================
+
+OpenAI GPT-4o-mini: $3-5/month
+Google Gemini: FREE! ✅
+
+Gemini is:
+- Completely free
+- No credit card
+- Smart enough for Spenly
+- 60 requests/min limit (plenty)
+
+========================================
+FREE TIER LIMITS
+========================================
+
+- 60 requests per minute
+- 1500 requests per day
+- No daily cost limit
+
+For a personal finance app, this is MORE than enough!
+Even power users won't hit these limits.
+
+========================================
+PRIVACY
+========================================
+
+Both OpenAI and Gemini:
+- Send data to cloud (need internet)
+- Your transactions are included in requests
+- Google's privacy policy applies
+- Data not used for training (by default)
+
+If privacy is concern, stick with if-else code (offline).
+
+========================================
+

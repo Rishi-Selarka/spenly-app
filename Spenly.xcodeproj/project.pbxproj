@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CF362D62DDDB5ED003F2013 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 2CF362D52DDDB5ED003F2013 /* GoogleMobileAds */; };
+		2CFC48712DF0C42000700A70 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 2CFC48702DF0C42000700A70 /* FirebaseCore */; };
+		2CFC48732DF0C42000700A70 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2CFC48722DF0C42000700A70 /* FirebaseCrashlytics */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C4C3D422DCF386100B984D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C4C3D252DCF385F00B984D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4C3D2C2DCF385F00B984D8;
+			remoteInfo = Spenly;
+		};
+		2C4C3D4C2DCF386100B984D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C4C3D252DCF385F00B984D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4C3D2C2DCF385F00B984D8;
+			remoteInfo = Spenly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C4C3D2D2DCF385F00B984D8 /* Spenly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spenly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4C3D412DCF386100B984D8 /* SpenlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpenlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4C3D4B2DCF386100B984D8 /* SpenlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpenlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB76D802E6C80BD0061E9D4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2CC2D9742DE5FA4E002EBA17 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		2CC2D9922DE5FEB8002EBA17 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2CCFCFFA2DCF4B86001505B5 /* Exceptions for "Spenly" folder in "Spenly" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2C4C3D2C2DCF385F00B984D8 /* Spenly */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2C4C3D2F2DCF385F00B984D8 /* Spenly */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2CCFCFFA2DCF4B86001505B5 /* Exceptions for "Spenly" folder in "Spenly" target */,
+			);
+			path = Spenly;
+			sourceTree = "<group>";
+		};
+		2C4C3D442DCF386100B984D8 /* SpenlyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpenlyTests;
+			sourceTree = "<group>";
+		};
+		2C4C3D4E2DCF386100B984D8 /* SpenlyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpenlyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C4C3D2A2DCF385F00B984D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFC48732DF0C42000700A70 /* FirebaseCrashlytics in Frameworks */,
+				2CFC48712DF0C42000700A70 /* FirebaseCore in Frameworks */,
+				2CF362D62DDDB5ED003F2013 /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4C3D3E2DCF386100B984D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4C3D482DCF386100B984D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4C3D242DCF385F00B984D8 = {
+			isa = PBXGroup;
+			children = (
+				2C4C3D2F2DCF385F00B984D8 /* Spenly */,
+				2C4C3D442DCF386100B984D8 /* SpenlyTests */,
+				2C4C3D4E2DCF386100B984D8 /* SpenlyUITests */,
+				2CC2D9712DE5FA4E002EBA17 /* Frameworks */,
+				2C4C3D2E2DCF385F00B984D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C4C3D2E2DCF385F00B984D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C4C3D2D2DCF385F00B984D8 /* Spenly.app */,
+				2C4C3D412DCF386100B984D8 /* SpenlyTests.xctest */,
+				2C4C3D4B2DCF386100B984D8 /* SpenlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CC2D9712DE5FA4E002EBA17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CB76D802E6C80BD0061E9D4 /* StoreKit.framework */,
+				2CC2D9922DE5FEB8002EBA17 /* CoreData.framework */,
+				2CC2D9742DE5FA4E002EBA17 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C4C3D2C2DCF385F00B984D8 /* Spenly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4C3D542DCF386100B984D8 /* Build configuration list for PBXNativeTarget "Spenly" */;
+			buildPhases = (
+				2C4C3D292DCF385F00B984D8 /* Sources */,
+				2C4C3D2A2DCF385F00B984D8 /* Frameworks */,
+				2C4C3D2B2DCF385F00B984D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2C4C3D2F2DCF385F00B984D8 /* Spenly */,
+			);
+			name = Spenly;
+			packageProductDependencies = (
+				2CF362D52DDDB5ED003F2013 /* GoogleMobileAds */,
+				2CFC48702DF0C42000700A70 /* FirebaseCore */,
+				2CFC48722DF0C42000700A70 /* FirebaseCrashlytics */,
+			);
+			productName = Spenly;
+			productReference = 2C4C3D2D2DCF385F00B984D8 /* Spenly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C4C3D402DCF386100B984D8 /* SpenlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4C3D592DCF386100B984D8 /* Build configuration list for PBXNativeTarget "SpenlyTests" */;
+			buildPhases = (
+				2C4C3D3D2DCF386100B984D8 /* Sources */,
+				2C4C3D3E2DCF386100B984D8 /* Frameworks */,
+				2C4C3D3F2DCF386100B984D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C4C3D432DCF386100B984D8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2C4C3D442DCF386100B984D8 /* SpenlyTests */,
+			);
+			name = SpenlyTests;
+			packageProductDependencies = (
+			);
+			productName = SpenlyTests;
+			productReference = 2C4C3D412DCF386100B984D8 /* SpenlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C4C3D4A2DCF386100B984D8 /* SpenlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4C3D5C2DCF386100B984D8 /* Build configuration list for PBXNativeTarget "SpenlyUITests" */;
+			buildPhases = (
+				2C4C3D472DCF386100B984D8 /* Sources */,
+				2C4C3D482DCF386100B984D8 /* Frameworks */,
+				2C4C3D492DCF386100B984D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C4C3D4D2DCF386100B984D8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2C4C3D4E2DCF386100B984D8 /* SpenlyUITests */,
+			);
+			name = SpenlyUITests;
+			packageProductDependencies = (
+			);
+			productName = SpenlyUITests;
+			productReference = 2C4C3D4B2DCF386100B984D8 /* SpenlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C4C3D252DCF385F00B984D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					2C4C3D2C2DCF385F00B984D8 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					2C4C3D402DCF386100B984D8 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 2C4C3D2C2DCF385F00B984D8;
+					};
+					2C4C3D4A2DCF386100B984D8 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 2C4C3D2C2DCF385F00B984D8;
+					};
+				};
+			};
+			buildConfigurationList = 2C4C3D282DCF385F00B984D8 /* Build configuration list for PBXProject "Spenly" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				de,
+				"zh-Hans",
+				ja,
+				ru,
+				fr,
+				hi,
+			);
+			mainGroup = 2C4C3D242DCF385F00B984D8;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2CF362D42DDDB5ED003F2013 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				2CFC486F2DF0C42000700A70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2C4C3D2E2DCF385F00B984D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C4C3D2C2DCF385F00B984D8 /* Spenly */,
+				2C4C3D402DCF386100B984D8 /* SpenlyTests */,
+				2C4C3D4A2DCF386100B984D8 /* SpenlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C4C3D2B2DCF385F00B984D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4C3D3F2DCF386100B984D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4C3D492DCF386100B984D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C4C3D292DCF385F00B984D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4C3D3D2DCF386100B984D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4C3D472DCF386100B984D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C4C3D432DCF386100B984D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C4C3D2C2DCF385F00B984D8 /* Spenly */;
+			targetProxy = 2C4C3D422DCF386100B984D8 /* PBXContainerItemProxy */;
+		};
+		2C4C3D4D2DCF386100B984D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C4C3D2C2DCF385F00B984D8 /* Spenly */;
+			targetProxy = 2C4C3D4C2DCF386100B984D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C4C3D552DCF386100B984D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Spenly/Spenly.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEVELOPMENT_TEAM = S8LD68K2KG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Spenly/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Spenly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to scan receipts.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID/Touch ID to securely access your financial data.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.4.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishiselarka.Spenly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2C4C3D562DCF386100B984D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Spenly/Spenly.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = S8LD68K2KG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Spenly/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Spenly;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to scan receipts.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We use Face ID/Touch ID to securely access your financial data.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.4.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishiselarka.Spenly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2C4C3D572DCF386100B984D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = S8LD68K2KG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C4C3D582DCF386100B984D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = S8LD68K2KG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C4C3D5A2DCF386100B984D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8LD68K2KG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishiselarka.SpenlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spenly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spenly";
+			};
+			name = Debug;
+		};
+		2C4C3D5B2DCF386100B984D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8LD68K2KG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishiselarka.SpenlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spenly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spenly";
+			};
+			name = Release;
+		};
+		2C4C3D5D2DCF386100B984D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8LD68K2KG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishiselarka.SpenlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Spenly;
+			};
+			name = Debug;
+		};
+		2C4C3D5E2DCF386100B984D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8LD68K2KG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rishiselarka.SpenlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Spenly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C4C3D282DCF385F00B984D8 /* Build configuration list for PBXProject "Spenly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4C3D572DCF386100B984D8 /* Debug */,
+				2C4C3D582DCF386100B984D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4C3D542DCF386100B984D8 /* Build configuration list for PBXNativeTarget "Spenly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4C3D552DCF386100B984D8 /* Debug */,
+				2C4C3D562DCF386100B984D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4C3D592DCF386100B984D8 /* Build configuration list for PBXNativeTarget "SpenlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4C3D5A2DCF386100B984D8 /* Debug */,
+				2C4C3D5B2DCF386100B984D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4C3D5C2DCF386100B984D8 /* Build configuration list for PBXNativeTarget "SpenlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4C3D5D2DCF386100B984D8 /* Debug */,
+				2C4C3D5E2DCF386100B984D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2CF362D42DDDB5ED003F2013 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.4.0;
+			};
+		};
+		2CFC486F2DF0C42000700A70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2CF362D52DDDB5ED003F2013 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CF362D42DDDB5ED003F2013 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		2CFC48702DF0C42000700A70 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CFC486F2DF0C42000700A70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		2CFC48722DF0C42000700A70 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CFC486F2DF0C42000700A70 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2C4C3D252DCF385F00B984D8 /* Project object */;
+}
